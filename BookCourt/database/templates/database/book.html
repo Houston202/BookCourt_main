@@ -20,7 +20,9 @@
     <img src="images\orig.png" alt="Обложка книги" class="book-img" width="360" height="516">
     <div class="book-fields">
       <div>
-        <h1 class="book-title">Название книги</h1>
+        {% for item in database %}
+        <h1 class="book-title">{{ item.Name }}</h1>
+        {% endfor %}
       </div>
       <div class="book-field">
         <p>Автор:</p>

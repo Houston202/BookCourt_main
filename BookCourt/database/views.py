@@ -42,7 +42,7 @@ def katalog(request):
     return render(request, 'database/katalog.html', {'database': database})
 
 
-def book(request):
+def book(request, ):
     return render(request, 'database/book.html')
 
 
