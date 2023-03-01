@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="Всё сделал">
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="olega" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="olega" />
+      </map>
+    </option>
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Houston202" />
+        <option name="repository" value="BookCourt1" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e3240e04-6cfd-4fd7-8e49-5921aa1e998c" />
+        <option name="url" value="https://github.com/Houston202/BookCourt1.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LzSced1XH6E11Z9yYSumd2meat" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/BookCourt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BookCourt\BookCourt\main\templates\main" />
+      <recent name="D:\BookCourt\BookCourt\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BookCourt\BookCourt" />
+      <recent name="D:\BookCourt\BookCourt\main\templates\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="BookCourt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="" />
+      <created>1676872498780</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676872498780</updated>
+    </task>
+    <task id="LOCAL-00001" summary="main files">
+      <created>1677215713910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677215713910</updated>
+    </task>
+    <task id="LOCAL-00002" summary="проверка">
+      <created>1677216441146</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677216441146</updated>
+    </task>
+    <task id="LOCAL-00003" summary="проверка">
+      <created>1677216581418</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677216581418</updated>
+    </task>
+    <task id="LOCAL-00004" summary="проверка2">
+      <created>1677216741990</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677216741990</updated>
+    </task>
+    <task id="LOCAL-00005" summary="проверка2">
+      <created>1677217477326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677217477326</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Изменил">
+      <created>1677217722759</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677217722759</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Изменил">
+      <created>1677218323507</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677218323507</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Изменил">
+      <created>1677218511086</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677218511086</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Изменил213">
+      <created>1677218745722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677218745722</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Изменил213">
+      <created>1677218828412</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677218828412</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Изменил213">
+      <created>1677218993490</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677218993490</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Изменил213">
+      <created>1677219215306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677219215306</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Изменил213">
+      <created>1677219346060</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677219346060</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Изменил21354654564">
+      <created>1677220141456</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220141456</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Изменил21354654564">
+      <created>1677220292719</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220292719</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Изменил21354654564">
+      <created>1677220374267</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220374267</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Изменил21354654564">
+      <created>1677220450876</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220450876</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Изменил21354654564">
+      <created>1677220555838</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220555838</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Изменил21354654564">
+      <created>1677220665223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1677220665223</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Изменил21354654564">
+      <created>1677223276535</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677223276535</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Изменил21354654564">
+      <created>1677223553243</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677223553243</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Добавил регистрацию (почти)">
+      <created>1677224196746</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224196746</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Добавил регистрацию (почти)">
+      <created>1677225438291</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225438291</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Добавил регистрацию (почти)">
+      <created>1677225446481</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677225446481</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Добавил регистрацию (почти)">
+      <created>1677227493897</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677227493897</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Добавил регистрацию (почти)">
+      <created>1677227926435</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677227926435</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Добавил регистрацию (почти)">
+      <created>1677228173996</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228173996</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Добавил регистрацию (почти)">
+      <created>1677228854032</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677228854032</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Добавил регистрацию (почти)">
+      <created>1677231805948</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677231805948</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Добавил регистрацию (почти)">
+      <created>1677232153990</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1677232153990</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Добавил регистрацию (почти)">
+      <created>1677238488109</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1677238488109</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Всё сделал">
+      <created>1677238511263</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677238511263</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Всё сделал">
+      <created>1677238745907</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677238745907</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Всё сделал">
+      <created>1677239659373</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1677239659373</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Всё сделал">
+      <created>1677635379609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635379609</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Всё сделал">
+      <created>1677663476984</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1677663476984</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="main files" />
+    <MESSAGE value="проверка" />
+    <MESSAGE value="проверка2" />
+    <MESSAGE value="Изменил" />
+    <MESSAGE value="Изменил213" />
+    <MESSAGE value="Изменил21354654564" />
+    <MESSAGE value="Добавил регистрацию (почти)" />
+    <MESSAGE value="Всё сделал" />
+    <option name="LAST_COMMIT_MESSAGE" value="Всё сделал" />
+  </component>
+</project>
