@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'main/css/user-profile.css' %}">
+  <link rel="icon" href="{% static 'main/img/favicon.ico' %}" type="image/x-icon">
+  <title>Личный кабинет</title>
+</head>
+<body>
+  <header>
+    <div>
+      <button class="back-button"><a href="{% url 'katalog' %}"><img src="{% static 'main/img/back-player-multimedia-svgrepo-com.svg' %}" alt="Назад" width="50" height="50"></a></button>
+    </div>
+    <div class="logo">BookCourt.CRM</div>
+  </header>
+  <div class="circle">
+    <img src="{% static 'main/img/6902298.jpg' %}" alt="Логотип компании" class="company-logo">
+  </div>
+  <div class="information-container">
+    {% for item in data %}
+    <h1 class="title">{{ item.company_name }}</h1> <!--надо брать из базы данных-->
+    <div class="inf-fields">
+      <div class="inf-field">
+        <p>Телефон: {{ item.mobile_phone }}</p>
+      </div>
+      <div class="inf-field">
+        <p>Email: {{ item.email }}</p>
+      </div>
+      <div class="inf-field">
+        <p>Ссылка на сайт: {{ item.url }}</p>
+      </div>
+      <div class="inf-field">
+        <p>Адрес: {{ item.adres }}</p>
+      </div>
+      <div class="inf-field">
+        <p>Представитель: {{ item.name_of_major }}</p>
+      </div>
+    </div>
+    <div class="buttons">
+      <div>
+        <button class="escape"><a href="{% url 'home' %}" class="text">Выйти из аккаунта</a></button>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+</body>
+</html>
