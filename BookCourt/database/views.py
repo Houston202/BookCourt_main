@@ -15,7 +15,7 @@ def home_page(request):
 
 
 def katalog(request):
-    database = Books.objects.all()
+    database = Books.objects.order_by('-Name')[:12]
     if request.method == 'POST':
         books_resource = BooksResource()
         dataset = Dataset()
