@@ -20,26 +20,34 @@
   <main>
     <div class="book-container">
       <h1 class="form-title">Ваш каталог</h1>
+
       <div class="wrapper">
-        {% for item in database %}
-        <div class="card">
-            <div class="card-title">
-              <p>{{ item.title }}<br>
-              </p>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-    <form method="post"  enctype="multipart/form-data">
-      <div class="file-uppend">
-        {% csrf_token %}
-        <label for="catalog"><div>Загрузить файл</div>
-          <div class="inputik">
-            <input type="file" accept=".xlsx,.cvs" id="catalog" onchange="form.submit()" required name="file"><br><br>
+        <table>
+          <thead>
+            <th>Название книги</th>
+            <th>Цена</th>
+            <th>Количество в наличии</th>
+          </thead>
+          <tbody>
+            {% for item in database %}
+              <tr>
+                <td class="title">{{ item.Name }}</td>
+                <td class="price">{{ item.Price }}</td>
+                <td class="stock">{{ item.Remainder }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <form method="post"  enctype="multipart/form-data">
+          <div class="file-uppend">
+            {% csrf_token %}
+            <label for="catalog"><div>Загрузить файл</div>
+              <div class="inputik">
+                <input type="file" accept=".xlsx,.cvs" id="catalog" onchange="form.submit()" required name="file"><br>
+              </div>
+            </label>
           </div>
-        </label>
-      </div>
-    </form>
+        </form>
     </div>
   </main>
 </body>
