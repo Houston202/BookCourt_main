@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="Всё сделал">
+    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.41">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/database/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

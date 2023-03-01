@@ -42,6 +42,10 @@ def katalog(request):
     return render(request, 'database/katalog.html', {'database': database})
 
 
+def book(request):
+    return render(request, 'database/book.html')
+
+
 def profile(request):
     data = model.objects.all()
     return render(request, 'database/user-profile.html', {'data': data})
