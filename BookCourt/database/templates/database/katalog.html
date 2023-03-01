@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="{% static 'main/img/favicon.ico' %}" type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'main/css/katalog.css' %}">
+</head>
+<body>
+  <header>
+    <div class="logo">BookCourt.CRM</div>
+    <div>
+      <button class="user-profile"><a href="{% url 'profile' %}" class="text">Личный кабинет</a></button>
+    </div>
+  </header>
+  <main>
+    <div class="book-container">
+      <h1 class="form-title">Ваш каталог</h1>
+      <div class="wrapper">
+        {% for item in database %}
+        <div class="card">
+            <div class="card-title">
+              <p>{{ item.title }}<br>
+              </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <form method="post"  enctype="multipart/form-data">
+      <div class="file-uppend">
+        {% csrf_token %}
+        <label for="catalog"><div>Загрузить файл</div>
+          <div class="inputik">
+            <input type="file" accept=".xlsx,.cvs" id="catalog" onchange="form.submit()" required name="file"><br><br>
+          </div>
+        </label>
+      </div>
+    </form>
+    </div>
+  </main>
+</body>
+</html>

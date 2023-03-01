@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'main/css/registration.css' %}">
+    <link rel="icon" href="{% static 'main/img/favicon.ico' %}" type="image/x-icon">
+    <title>Форма регистрации</title>
+  </head>
+
+  <body>
+    <header>
+        <div>
+            <button class="back-button"><a href="{% url 'home' %}"><img src="{% static 'main/img/back-player-multimedia-svgrepo-com.svg' %}" alt="Назад" width="50" height="50"></a></button>
+        </div>
+        <div class="logo">BookCourt.CRM</div>
+    </header>
+    <main>
+      <form method="POST">
+        {% csrf_token %}
+        <div class="register-form-container">
+          <h1 class="form-title">
+            Регистрация
+          </h1>
+          <div class="form-fields">
+              <div class="form-field">
+                {{form.company_name}}
+              </div>
+              <div class="form-field">
+                {{form.mobile_phone}}
+              </div>
+              <div class="form-field">
+                {{form.email}}
+              </div>
+              <div class="form-field">
+                {{form.url}}
+              </div>
+              <div class="form-field">
+                {{form.adres}}
+              </div>
+              <div class="form-field">
+                {{form.name_of_major}}
+              </div>
+              <div class="form-field">
+                {{form.password}}
+              </div>
+              <div class="form-buttons">
+              <button class="button" value="submit">ОК</button>
+              </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+
+</html>
