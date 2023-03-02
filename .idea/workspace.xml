@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.41">
+    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/book.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/katalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/katalog.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +50,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -93,7 +100,7 @@
       <recent name="D:\BookCourt\BookCourt\main\templates\main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.views">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="BookCourt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +122,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BookCourt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BookCourt/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BookCourt/database/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -377,7 +410,49 @@
       <option name="project" value="LOCAL" />
       <updated>1677663476984</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="1.41">
+      <created>1677683775544</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1677683775544</updated>
+    </task>
+    <task id="LOCAL-00038" summary="1.42">
+      <created>1677689994819</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1677689994819</updated>
+    </task>
+    <task id="LOCAL-00039" summary="1.42">
+      <created>1677690005475</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1677690005475</updated>
+    </task>
+    <task id="LOCAL-00040" summary="1.5!!!">
+      <created>1677720928302</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677720928302</updated>
+    </task>
+    <task id="LOCAL-00041" summary="1.5!!!!!">
+      <created>1677721047514</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1677721047514</updated>
+    </task>
+    <task id="LOCAL-00042" summary="1.6">
+      <created>1677730394479</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677730394479</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +460,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -400,6 +487,11 @@
     <MESSAGE value="Изменил21354654564" />
     <MESSAGE value="Добавил регистрацию (почти)" />
     <MESSAGE value="Всё сделал" />
-    <option name="LAST_COMMIT_MESSAGE" value="Всё сделал" />
+    <MESSAGE value="1.41" />
+    <MESSAGE value="1.42" />
+    <MESSAGE value="1.5!!!" />
+    <MESSAGE value="1.5!!!!!" />
+    <MESSAGE value="1.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
   </component>
 </project>

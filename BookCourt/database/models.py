@@ -9,6 +9,7 @@ class Books(models.Model):
     Remainder = models.IntegerField('В наличии')
     Image = models.CharField('Картинка', max_length=1000)
     NumberOfPages = models.IntegerField('Количество страниц')
+    SourceName = models.CharField('Ссылка', max_length=1000)
     Genre = models.CharField('Жанр', max_length=100)
 
 

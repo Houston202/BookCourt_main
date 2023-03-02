@@ -36,7 +36,8 @@ def katalog(request):
                 data[5],
                 data[6],
                 data[7],
-                data[8]
+                data[8],
+                data[9]
             )
             value.save()
     return render(request, 'database/katalog.html', {'database': database})

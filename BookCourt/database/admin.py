@@ -6,4 +6,4 @@ from .models import Books
 @admin.register(Books)
 class BooksAdmin(ImportExportModelAdmin):
     list_display = ('Name', 'Author', 'Description', 'Price', 'Remainder', 'Image', 'NumberOfPages',
-                    'Genre')
+                    'SourceName', 'Genre')
