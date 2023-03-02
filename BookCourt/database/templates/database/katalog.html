@@ -31,7 +31,7 @@
           <tbody>
             {% for item in database %}
               <tr>
-                <td class="title"><a href="{% url 'book' %}">{{ item.Name }}</a></td>
+                <td class="title"><a href="{% url 'book' item.pk %}">{{ item.Name }}</a></td>
                 <td class="price">{{ item.Price }}</td>
                 <td class="stock">{{ item.Remainder }}</td>
               </tr>

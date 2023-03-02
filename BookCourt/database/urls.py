@@ -7,5 +7,5 @@ urlpatterns = [
     path('create', views.import_data_to_db, name='create'),
     path('profile', views.profile, name='profile'),
     path('homepagea', views.home_page, name='homepagea'),
-    path('book', views.book, name='book')
+    path('book/<int:book_id>', views.book, name='book')
 ]

@@ -42,8 +42,9 @@ def katalog(request):
     return render(request, 'database/katalog.html', {'database': database})
 
 
-def book(request):
-    return render(request, 'database/book.html')
+def book(request, book_id):
+    database = Books.objects.get(pk=book_id)
+    return render(request, 'database/book.html', {'database': database})
 
 
 def profile(request):
