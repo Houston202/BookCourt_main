@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.42">
+    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.5!!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/database/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -426,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677690005475</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="1.5!!!">
+      <created>1677720928302</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1677720928302</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +455,7 @@
     <MESSAGE value="Всё сделал" />
     <MESSAGE value="1.41" />
     <MESSAGE value="1.42" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.42" />
+    <MESSAGE value="1.5!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.5!!!" />
   </component>
 </project>
