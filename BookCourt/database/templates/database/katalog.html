@@ -22,7 +22,7 @@
       <h1 class="form-title">Ваш каталог</h1>
       <form action="{% url 'search_results' %}" method="get">
 
-          <input name="q" type='text' id="field_input" list="fields_list">
+          <input name="q" type='text' id="field_input" list="fields_list" placeholder="Search...">
            <datalist id="fields_list">
             {% for item in books %}
             <option value="{{ item.Name }}">
