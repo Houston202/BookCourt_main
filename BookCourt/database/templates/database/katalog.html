@@ -32,8 +32,8 @@
           <tbody>
             {% for item in database %}
               <tr>
-                <td class="cover"><img src="{{ item.Image }}" alt="Обложка книги" width="135" height="200"> </td>
-                <td class="title"><a href="{% url 'book' item.pk %}">{{ item.Name }}</a></td>
+                <td class="cover"><a href="{% url 'book' item.pk %}"><img src="{{ item.Image }}" alt="Обложка книги" width="135" height="200"> </a></td>
+                <td class="title">{{ item.Name }}</td>
                 <td class="price">{{ item.Price }} руб.</td>
                 <td class="stock">{{ item.Remainder }}</td>
               </tr>
