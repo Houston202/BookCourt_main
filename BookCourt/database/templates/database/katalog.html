@@ -32,7 +32,7 @@
           <tbody>
             {% for item in database %}
               <tr>
-                <td class="cover"><a href="{% url 'book' item.pk %}"><img src="{{ item.Image }}" alt="Обложка книги" width="135" height="200"> </a></td>
+                <td class="cover"><a href="{% url 'book' item.pk %}"><img src="{{ item.Image }}" onError="this.src='{% static 'main/img/error_book.jpg' %}'" alt="Обложка книги" width="135" height="200"> </a></td>
                 <td class="title">{{ item.Name }}</td>
                 <td class="price">{{ item.Price }} руб.</td>
                 <td class="stock">{{ item.Remainder }}</td>
