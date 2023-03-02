@@ -12,7 +12,5 @@ class Books(models.Model):
     SourceName = models.CharField('Ссылка', max_length=1000)
     Genre = models.CharField('Жанр', max_length=100)
 
-
-
     def __str__(self):
         return self.Name

@@ -20,7 +20,15 @@
   <main>
     <div class="book-container">
       <h1 class="form-title">Ваш каталог</h1>
+      <form action="{% url 'search_results' %}" method="get">
 
+          <input name="q" type='text' id="field_input" list="fields_list">
+           <datalist id="fields_list">
+            {% for item in books %}
+            <option value="{{ item.Name }}">
+            {% endfor %}
+          </datalist>
+        </form>
       <div class="wrapper">
         <table>
           <thead>

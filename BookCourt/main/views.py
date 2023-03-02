@@ -4,7 +4,8 @@ from .forms import UsersForm
 
 
 def index(request):
-    return render(request, 'main/index.html',)
+    form = UsersForm()
+    return render(request, 'main/index.html', {'form': form})
 
 def registration(request):
     if request.method == 'POST':

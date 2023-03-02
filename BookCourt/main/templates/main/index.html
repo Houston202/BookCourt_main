@@ -16,7 +16,8 @@
   <body>
     <div class="logo">BookCourt.CRM</div>
     <main>
-      <form method="POST" action="#">
+      <form method="POST">
+        {% csrf_token %}
         <div class="authorization-form-container">
           <div class="authorization-form-container-left">
               <h1 class="form-title-auto">
@@ -24,12 +25,14 @@
               </h1>
               <div class="form-fields">
                 <div class="form-field">
-                  <input type="text" placeholder="Телефон" required="required">
+                  {{ form.mobile_phone }}
+                </div >
+                <div class="form-field">
+                  {{ form.password}}
                 </div>
-                  <input type="password" placeholder="Пароль" required="required">
               </div>
-              <div >
-                <button class="form-button-auto" value="submit">Вход</a></button>
+              <div>
+                <button class="form-button-auto" value="submit">Вход</button>
             </div>
           </div>
           <div class="authorization-form-container-right">
