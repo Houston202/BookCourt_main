@@ -1,0 +1,60 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="{% static 'main/img/favicon.ico' %}" type="image/x-icon">
+  <link rel="stylesheet" href="{% static 'main/css/katalog.css' %}">
+</head>
+<body>
+  <header>
+    <div class="logo">BookCourt.CRM</div>
+    <div>
+      <button class="user-profile"><a href="{% url 'profile' %}" class="text">Личный кабинет</a></button>
+    </div>
+  </header>
+  <main>
+
+    <div class="book-container">
+      <div>
+      <button class="back-button"><a href="{% url 'katalog' %}"><img src="{% static 'main/img/back-player-multimedia-svgrepo-com.svg' %}" alt="Назад" width="50" height="50"></a></button>
+    </div>
+      <h1 class="form-title">Результат поиска</h1>
+
+      <div class="wrapper">
+        <table>
+          <thead>
+            <th>Обложка</th>
+            <th>Название книги</th>
+            <th>Цена</th>
+            <th>Количество в наличии</th>
+          </thead>
+          <tbody>
+            {% for item in object_list %}
+              <tr>
+                <td class="cover"><a href="{% url 'book' item.pk %}"><img src="{{ item.Image }}" onError="this.src='{% static 'main/img/error_book.jpg' %}'" alt="Обложка книги" width="135" height="200"> </a></td>
+                <td class="title">{{ item.Name }}</td>
+                <td class="price">{{ item.Price }} руб.</td>
+                <td class="stock">{{ item.Remainder }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <form method="post"  enctype="multipart/form-data">
+          <div class="file-uppend">
+            {% csrf_token %}
+            <label for="catalog"><div>Загрузить файл</div>
+              <div class="inputik">
+                <input type="file" accept=".xlsx,.cvs" id="catalog" onchange="form.submit()" required name="file"><br>
+              </div>
+            </label>
+          </div>
+        </form>
+    </div>
+  </main>
+</body>
+</html>
