@@ -3,6 +3,15 @@ body {
   background-color: #FEF6EB;
 }
 
+.back-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 45px;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -179,3 +188,4 @@ td {
    height: 150px;
    font-size: 23px;
 }
+

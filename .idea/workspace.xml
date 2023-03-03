@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.6">
+    <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.76">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/book.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/main/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/book.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/katalog.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/katalog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/search_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/search_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="SOFT" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -457,8 +454,53 @@
       <option name="project" value="LOCAL" />
       <updated>1677730726607</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="1.71">
+      <created>1677747646504</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677747646504</updated>
+    </task>
+    <task id="LOCAL-00045" summary="1.71">
+      <created>1677747656903</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1677747656903</updated>
+    </task>
+    <task id="LOCAL-00046" summary="1.75">
+      <created>1677782352735</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1677782352735</updated>
+    </task>
+    <task id="LOCAL-00047" summary="1.75">
+      <created>1677782497147</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677782497147</updated>
+    </task>
+    <task id="LOCAL-00048" summary="1.76">
+      <created>1677782753309</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677782753309</updated>
+    </task>
+    <task id="LOCAL-00049" summary="1.76">
+      <created>1677801983963</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677801983963</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -497,6 +539,9 @@
     <MESSAGE value="1.5!!!" />
     <MESSAGE value="1.5!!!!!" />
     <MESSAGE value="1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.6" />
+    <MESSAGE value="1.71" />
+    <MESSAGE value="1.75" />
+    <MESSAGE value="1.76" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.76" />
   </component>
 </project>
