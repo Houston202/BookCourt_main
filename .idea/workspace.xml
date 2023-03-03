@@ -7,6 +7,8 @@
     <list default="true" id="eca02025-fead-43bb-b044-3b074dfa9ad1" name="Changes" comment="1.76">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/katalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/database/templates/database/search_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/database/templates/database/search_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BookCourt/main/static/main/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/BookCourt/main/static/main/css/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -487,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677782753309</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="1.76">
+      <created>1677801983963</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677801983963</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="UnknownFeatures">
